@@ -2,113 +2,113 @@ import {
   DashboardCardDataTypes,
   NavFilterDataTypes,
   SidebarDataTypes,
-} from "@type/Types";
-import { BsXDiamondFill } from "react-icons/bs";
-import { AiOutlineDeliveredProcedure } from "react-icons/ai";
-import { BsPiggyBankFill } from "react-icons/bs";
-import { MdSavings } from "react-icons/md";
-import { IoPieChartSharp } from "react-icons/io5";
-import { MdRiceBowl } from "react-icons/md";
-import { FaStore } from "react-icons/fa";
-import { ImUser } from "react-icons/im";
+} from '@type/Types';
+import { BsXDiamondFill } from 'react-icons/bs';
+import { AiOutlineDeliveredProcedure } from 'react-icons/ai';
+import { BsPiggyBankFill } from 'react-icons/bs';
+import { MdSavings } from 'react-icons/md';
+import { IoPieChartSharp } from 'react-icons/io5';
+import { MdRiceBowl } from 'react-icons/md';
+import { FaStore } from 'react-icons/fa';
+import { ImUser } from 'react-icons/im';
 
 export const navFilterData: Array<NavFilterDataTypes> = [
   {
-    title: "January",
-    value: "january",
+    title: 'January',
+    value: 'january',
   },
   {
-    title: "February",
-    value: "february",
+    title: 'February',
+    value: 'february',
   },
   {
-    title: "March",
-    value: "march",
+    title: 'March',
+    value: 'march',
   },
   {
-    title: "April",
-    value: "april",
+    title: 'April',
+    value: 'april',
   },
   {
-    title: "May",
-    value: "may",
+    title: 'May',
+    value: 'may',
   },
   {
-    title: "June",
-    value: "june",
+    title: 'June',
+    value: 'june',
   },
   {
-    title: "July",
-    value: "july",
+    title: 'July',
+    value: 'july',
   },
   {
-    title: "August",
-    value: "august",
+    title: 'August',
+    value: 'august',
   },
   {
-    title: "September",
-    value: "september",
+    title: 'September',
+    value: 'september',
   },
   {
-    title: "October",
-    value: "october",
+    title: 'October',
+    value: 'october',
   },
   {
-    title: "November",
-    value: "november",
+    title: 'November',
+    value: 'november',
   },
   {
-    title: "December",
-    value: "december",
+    title: 'December',
+    value: 'december',
   },
 ];
 
 export const dashboardCardData: Array<DashboardCardDataTypes> = [
   {
     id: 1,
-    title: "Sales Order",
-    value: "1649K",
+    title: 'Sales Order',
+    value: '1649K',
     icon: BsXDiamondFill,
   },
   {
     id: 2,
-    title: "Delivered",
-    value: "775K",
+    title: 'Delivered',
+    value: '775K',
     icon: AiOutlineDeliveredProcedure,
   },
   {
     id: 3,
-    title: "Remaining",
-    value: "874K",
+    title: 'Remaining',
+    value: '874K',
     icon: BsPiggyBankFill,
   },
   {
     id: 4,
-    title: "Last Month",
-    value: "1565K",
+    title: 'Last Month',
+    value: '1565K',
     icon: MdSavings,
   },
 ];
 
 export const sidebarData: Array<SidebarDataTypes> = [
   {
-    href: "/",
+    href: '/',
     icon: IoPieChartSharp,
-    title: "Dashboard",
+    title: 'Dashboard',
   },
   {
-    href: "/product",
+    href: '/product',
     icon: MdRiceBowl,
-    title: "Product",
+    title: 'Product',
   },
   {
-    href: "/store",
+    href: '/store',
     icon: FaStore,
-    title: "Store",
+    title: 'Store',
   },
   {
-    href: "/salesman",
+    href: '/salesman',
     icon: ImUser,
-    title: "Salesman",
+    title: 'Salesman',
   },
 ];

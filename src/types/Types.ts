@@ -1,19 +1,19 @@
-import { IconType } from "react-icons";
+import { IconType } from 'react-icons';
 
-interface BaseDataTypes {
+type BaseDataTypes = {
   id?: number;
   title: string;
   value: string;
-}
+};
 
-export interface NavFilterDataTypes extends BaseDataTypes {}
+export type NavFilterDataTypes = BaseDataTypes & object;
 
-export interface DashboardCardDataTypes extends BaseDataTypes {
+export type DashboardCardDataTypes = BaseDataTypes & {
   icon: IconType;
-}
+};
 
-export interface SidebarDataTypes {
+export type SidebarDataTypes = {
   icon: IconType;
   href: string;
   title: string;
-}
+};

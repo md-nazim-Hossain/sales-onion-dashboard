@@ -1,7 +1,7 @@
-import Card from "@components/shared/Card";
-import { dashboardCardData } from "@data/NavData";
-import { DashboardCardDataTypes } from "@type/Types";
-import React from "react";
+import Card from '@components/shared/Card';
+import { dashboardCardData } from '@data/NavData';
+import { DashboardCardDataTypes } from '@type/Types';
+import React from 'react';
 
 function Cards() {
   return (
