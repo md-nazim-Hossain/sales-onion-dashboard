@@ -24,6 +24,7 @@
       "@styles/*": ["src/styles/*"],
       "@utils/*": ["src/utils/*"],
       "@components/*": ["src/components/*"],
+      "@vendors/*": ["src/vendors/*"],
       "@type/*": ["src/types/*"],
       "@data/*": ["src/data/*"]
     }

@@ -1,15 +1,26 @@
-import DashboardLayout from "@components/layout/DashboardLayout";
-import Cards from "@components/views/Dashboard/Cards";
-import Image from "next/image";
+import Cards from '@components/views/Dashboard/Cards';
+import CategoryAchievement from '@components/views/Dashboard/CategoryAchievement';
+import SalesOrderChart from '@components/views/Dashboard/Sales/SalesOrderChart';
+import SalesPerformance from '@components/views/Dashboard/Sales/SalesPerformance';
+import TopSellingProducts from '@components/views/Dashboard/TopSellingProducts';
+import TopSellingStores from '@components/views/Dashboard/TopSellingStores';
 
 export default function Home() {
   return (
-    <main>
-      <DashboardLayout>
-        <div>
-          <Cards />
+    <div className="space-y-5">
+      <Cards />
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+        <div className="lg:col-span-2">
+          <SalesOrderChart />
         </div>
-      </DashboardLayout>
-    </main>
+        <SalesPerformance />
+      </div>
+
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+        <TopSellingProducts />
+        <CategoryAchievement />
+        <TopSellingStores />
+      </div>
+    </div>
   );
 }

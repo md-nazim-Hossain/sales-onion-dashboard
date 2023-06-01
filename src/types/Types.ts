@@ -17,3 +17,16 @@ export type SidebarDataTypes = {
   href: string;
   title: string;
 };
+
+export type CategoryAchievementDataTypes = {
+  Icon: IconType;
+  productName: string;
+  targetAmount: number;
+  achievementAmount: number;
+};
+
+export type TopSellingProductsDataTypes = {
+  productName: string;
+  quantity: number;
+  salesOrder: number;
+};

@@ -1,4 +1,4 @@
-@import url("./font.css");
+@import url('./font.css');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -15,15 +15,13 @@ body {
   h1 {
     @apply text-4xl font-medium text-white;
   }
-  h2 {
-    @apply text-[28px] font-medium leading-[42px] text-white;
-  }
   h3 {
     @apply text-2xl text-white font-medium;
   }
   h4 {
-    @apply text-[22px] text-white leading-8;
+    @apply text-xl text-white font-bold;
   }
+
   h5 {
     @apply text-base;
   }
@@ -37,6 +35,24 @@ body {
     @apply border border-red-500;
   }
   .padding-1 {
-    @apply px-6 py-3;
+    @apply px-5 py-3;
+  }
+
+  /* scroll css */
+  .scroll::-webkit-scrollbar {
+    width: 3px;
+    background: transparent;
+  }
+
+  /* Track */
+  .scroll::-webkit-scrollbar-track {
+    border-radius: 10px;
+  }
+
+  /* Handle */
+  .scroll::-webkit-scrollbar-thumb {
+    width: 3px;
+    background: rgba(104, 114, 114, 0.5);
+    border-radius: 10px;
   }
 }

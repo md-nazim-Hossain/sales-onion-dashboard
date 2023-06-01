@@ -1,6 +1,7 @@
-import { navFilterData } from "@data/NavData";
-import { NavFilterDataTypes } from "@type/Types";
-import React from "react";
+'use client';
+import { navFilterData } from '@data/data';
+import { NavFilterDataTypes } from '@type/Types';
+import React from 'react';
 
 function Filter() {
   return (

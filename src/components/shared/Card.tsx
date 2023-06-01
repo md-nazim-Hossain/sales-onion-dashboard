@@ -1,14 +1,16 @@
-import { DashboardCardDataTypes } from "@type/Types";
-import React from "react";
+'use client';
+import { DashboardCardDataTypes } from '@type/Types';
+import React from 'react';
+import IconBox from './IconBox';
 
-interface Props {
+type Props = {
   data: DashboardCardDataTypes;
-}
+};
 function Card({ data }: Props) {
   return (
-    <div className="bg-theme-base-2 px-3 py-2 rounded-xl flex justify-between items-center">
-      <div className="w-[44px] h-[44px] bg-theme-base-1 rounded-xl flex justify-center items-center">
-        <data.icon className="text-primary" size={24} />
+    <div className="bg-theme-base-2 px-3 py-2 rounded-xl flex justify-between h-[100px]">
+      <div className="my-auto">
+        <IconBox Icon={data.icon} />
       </div>
       <div>
         <h3 className="text-secondary font-normal">{data.title}</h3>
